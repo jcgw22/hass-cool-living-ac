@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up TCL · Cool Living · Comfee AC",
+        "description": "Select the infrared emitter pointed at your air conditioner.",
+        "data": {
+          "infrared_entity_id": "Infrared emitter"
+        },
+        "data_description": {
+          "infrared_entity_id": "The infrared emitter entity (e.g. an ESPHome IR blaster) to use for sending commands."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This infrared emitter is already configured for a TCL112AC unit.",
+      "no_emitters": "No infrared emitters found. Set up an infrared proxy (e.g. an ESPHome IR blaster) first."
+    }
+  }
+}

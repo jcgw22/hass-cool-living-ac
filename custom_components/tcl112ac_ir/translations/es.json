@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar TCL · Cool Living · Comfee AC",
+        "description": "Selecciona el emisor de infrarrojos apuntado a tu aire acondicionado.",
+        "data": {
+          "infrared_entity_id": "Emisor de infrarrojos"
+        },
+        "data_description": {
+          "infrared_entity_id": "La entidad emisora de infrarrojos (p. ej., un IR blaster de ESPHome) para enviar comandos."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Este emisor de infrarrojos ya está configurado para una unidad TCL112AC.",
+      "no_emitters": "No se encontraron emisores de infrarrojos. Primero configura un proxy de infrarrojos (p. ej., un IR blaster de ESPHome)."
+    }
+  }
+}

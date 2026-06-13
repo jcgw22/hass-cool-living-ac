@@ -1,0 +1,12 @@
+{
+  "domain": "tcl112ac_ir",
+  "name": "TCL · Cool Living · Comfee AC (IR)",
+  "codeowners": ["@jcgw22"],
+  "config_flow": true,
+  "dependencies": ["infrared"],
+  "documentation": "https://github.com/jcgw22/hass-cool-living-ac",
+  "integration_type": "device",
+  "iot_class": "assumed_state",
+  "homeassistant": "2026.4.0",
+  "version": "1.0.0"
+}
