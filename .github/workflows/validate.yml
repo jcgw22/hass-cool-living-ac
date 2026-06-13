@@ -15,3 +15,10 @@ jobs:
       - uses: hacs/action@main
         with:
           category: integration
+
+  hassfest:
+    name: Hassfest validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: home-assistant/actions/hassfest@master
